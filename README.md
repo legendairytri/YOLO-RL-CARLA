@@ -14,10 +14,24 @@ _The CUDA integration is essential for the YOLO code, so that is why there is th
 - GPU Driver
 
 ## Necessary Downloads
+### CARLA
 Download CARLA_0.9.14.tar.gz from [CARLA_0.9.14](https://github.com/carla-simulator/carla/releases/tag/0.9.14/)
 Extract CARLA simulator to desired location.
 
+### YOLO Code
+Download zip file of [YOLO code](https://github.com/ferdialaca/Carla_Detection_YOLOv5)
+Extract YOLO code into examples folder of CARLA simulator. 
+> <base folder>/CARLA/PythonAPI/examples
 
+# Steps to Run
+/To do/
+
+# Description
+/Display w/ figures/
+
+# Associated Paper and Presentation
+/Paper/
+/Presentation/
 
 
 
