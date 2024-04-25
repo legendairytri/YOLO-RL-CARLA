@@ -16,7 +16,8 @@ _The requirements are based on the computers we have access to. I will attempt t
 - CARLA 9.14
 - Cuda 11.6
 - Pytorch 1.12.1
-- GPU Driver \n
+- GPU Driver
+  
 _The CUDA integration is essential for the YOLO code, so that is why there is the emphasis on getting the versioning correct here at the start._
 
 ## Necessary Downloads
