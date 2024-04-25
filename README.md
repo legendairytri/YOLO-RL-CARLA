@@ -1,15 +1,15 @@
 # **Steps to Setup YOLOv5 and Reinforcement Learning w/ CARLA**
 The Reinforcement Learning Group's Senior Design at the University of Detroit Mercy. 
 
-# System Requirements
-_The requirements are based on the computers we have access to. I will attempt to list the requirements in a manner that can be adapted for each user._
-
 # Associated Paper and Presentation
 /Paper/
 /Presentation/
 
 # Description
 /Display w/ figures/
+
+# System Requirements
+_The requirements are based on the computers we have access to. I will attempt to list the requirements in a manner that can be adapted for each user._
 
 ## Computer Configuration
 - Ubuntu 18.02
