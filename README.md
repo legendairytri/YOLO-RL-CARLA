@@ -32,7 +32,49 @@ Extract YOLO code into examples folder of CARLA simulator.
 > base folder/CARLA/PythonAPI/examples
 
 # Steps to Run
-/To do/
+'''
+python -m pip install --upgrade pip
+python -m pip install --upgrade pillow
+pip install pygame numpy && pip3 install pygame numpy
+pip install carla
+pip install gym
+pip install wheel
+sudo pip install -r requirements.txt (gym)
+pip install scikit-image
+pip install torch==1.12.1+cu116 torchvision==0.13.1+cu116 torchaudio==0.12.1 --extra-index-url https://download.pytorch.org/whl/cu116 
+'''
+
+Checking pytorch Cuda connection
+'''
+import torch
+torch.cuda.is_available()
+quit()
+Downloading CARLA
+'''
+Testing CARLA
+Activate venv
+'''
+source <venvname>/bin/activate
+'''
+Navigate into venv and run CARLA server
+'''
+cd <venvname>
+./CarlaUE4.sh
+'''
+Open new tab and run clientside python file
+'''
+source YOLOvenv/bin/activate
+cd YOLOvenv/PythonAPI/examples/
+python manual_control.py
+'''
+
+Setting up YOLO
+'''
+pip install -r requirements.txt (both for carla and YOLO
+'''
+Update ultralytics code
+>ultralytics.yolo.utils->ultralytics.utils
+
 
 
 
