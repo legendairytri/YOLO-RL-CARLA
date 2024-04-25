@@ -2,8 +2,9 @@
 The Reinforcement Learning Group's Senior Design at the University of Detroit Mercy. 
 
 # Associated Paper and Presentation
-/Paper/
-/Presentation/
+[Paper](https://github.com/legendairytri/YOLO-RL-CARLA/blob/main/Final%20Report%20Autonomous%20Driving%20via%20RL%20with%20Object%20Detection.pdf)
+
+[Presentation](https://github.com/legendairytri/YOLO-RL-CARLA/blob/main/Presentation%20Autonomous%20Driving%20via%20RL%20with%20Object%20Detection.pdf)
 
 # Description
 /Display w/ figures/
