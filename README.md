@@ -13,9 +13,9 @@ _The CUDA integration is essential for the YOLO code, so that is why there is th
 - Pytorch 1.12.1
 - GPU Driver
 
-
-
-
+## Necessary Downloads
+Download CARLA_0.9.14.tar.gz from [CARLA_0.9.14](https://github.com/carla-simulator/carla/releases/tag/0.9.14/)
+Extract CARLA simulator to desired location.
 
 
 
