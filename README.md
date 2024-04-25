@@ -4,6 +4,12 @@ The Reinforcement Learning Group's Senior Design at the University of Detroit Me
 # System Requirements
 _The requirements are based on the computers we have access to. I will attempt to list the requirements in a manner that can be adapted for each user._
 
+# Description
+/Display w/ figures/
+
+# Associated Paper and Presentation
+/Paper/
+/Presentation/
 ## Computer Configuration
 - Ubuntu 18.02
 - Python 3.8  
@@ -27,12 +33,6 @@ Extract YOLO code into examples folder of CARLA simulator.
 # Steps to Run
 /To do/
 
-# Description
-/Display w/ figures/
-
-# Associated Paper and Presentation
-/Paper/
-/Presentation/
 
 
 
