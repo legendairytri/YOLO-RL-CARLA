@@ -21,7 +21,7 @@ Extract CARLA simulator to desired location.
 ### YOLO Code
 Download zip file of [YOLO code](https://github.com/ferdialaca/Carla_Detection_YOLOv5)
 Extract YOLO code into examples folder of CARLA simulator. 
-> <base folder>/CARLA/PythonAPI/examples
+> base folder/CARLA/PythonAPI/examples
 
 # Steps to Run
 /To do/
