@@ -1,11 +1,17 @@
 # **Steps to Setup YOLOv5 and Reinforcement Learning w/ CARLA**
 The Reinforcement Learning Group's Senior Design at the University of Detroit Mercy. 
 
-## System Requirements
-_The requirements are based on the computers we have access to and through experimentation._
+# System Requirements
+_The requirements are based on the computers we have access to. I will attempt to list the requirements in a manner that can be adapted for each user._
 
-
-
+## Computer Configuration
+- Ubuntu 18.02
+- Python 3.8  
+- CARLA 9.14
+_The CUDA integration is essential for the YOLO code, so that is why there is the emphasis on getting the versioning correct here at the start._
+- Cuda 11.6
+- Pytorch 1.12.1
+- GPU Driver
 
 
 
