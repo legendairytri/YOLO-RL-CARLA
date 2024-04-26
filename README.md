@@ -1,5 +1,5 @@
 # **Steps to Setup YOLOv5 and Reinforcement Learning w/ CARLA**
-The Reinforcement Learning Group's Senior Design at the University of Detroit Mercy. Please see our associated [Paper](https://github.com/legendairytri/YOLO-RL-CARLA/blob/main/Final%20Report%20Autonomous%20Driving%20via%20RL%20with%20Object%20Detection.pdf) and [Presentation](https://github.com/legendairytri/YOLO-RL-CARLA/blob/main/Presentation%20Autonomous%20Driving%20via%20RL%20with%20Object%20Detection.pdf)
+The Reinforcement Learning Group's Senior Design at the University of Detroit Mercy. Please see our associated [Paper](https://github.com/legendairytri/YOLO-RL-CARLA/blob/main/Final%20Report%20Autonomous%20Driving%20via%20RL%20with%20Object%20Detection.pdf) and [Presentation](https://github.com/legendairytri/YOLO-RL-CARLA/blob/main/Presentation%20Autonomous%20Driving%20via%20RL%20with%20Object%20Detection.pdf).
 
 
 # System Requirements
@@ -11,8 +11,8 @@ _The requirements are based on the computers we have access to. I will attempt t
 - CARLA 9.14
 - Cuda 11.6
 - Pytorch 1.12.1
-- NVIDIA driver 510
-- RTX 3060 hash lite
+- NVIDIA Driver 510
+- RTX 3060 LHR
 
 _The CUDA integration is essential for the YOLO code, so that is why there is the emphasis on getting the versioning correct here at the start._
 
@@ -22,9 +22,21 @@ Download CARLA_0.9.14.tar.gz from [CARLA_0.9.14](https://github.com/carla-simula
 Extract CARLA simulator to desired location.
 
 ### YOLO Code
-Download zip file of [YOLO code](https://github.com/ferdialaca/Carla_Detection_YOLOv5)
-Extract YOLO code into examples folder of CARLA simulator. 
+Download zip file of [YOLO Code](https://github.com/ferdialaca/Carla_Detection_YOLOv5)
+Extract YOLO code into examples folder of the CARLA simulator. 
 > base folder/CARLA/PythonAPI/examples
+
+Download the best.pt from either link below
+[best.pt file](https://drive.google.com/file/d/1MxxIOVqHve3JCYKMepqFAgmI86mF_wXH/view) for Traffic Lights
+[best.pt](https://drive.google.com/file/d/1EuuVSsFQEEKmEoeWUMMzQSwsDmNbenxJ/view?usp=sharing) file for crosswalks
+_Note: This is the weights file that is generated after running the training file from Ultralytics YOLOv5. The chosen best.pt file should also be placed in the examples folder._
+
+### Reinforcement Learning Code
+Download zip file of [Reinforcement Learning Code](https://github.com/cjy1992/gym-carla/tree/master)
+Extract Reinforcement Learning Code into the examples folder of the CARLA simulator.
+
+### Code from this GitHub Repository
+This repository was made with the folder structure of the source codes that it has used in mind.
 
 # Steps to Run
 ```
