@@ -2,12 +2,8 @@
 The Reinforcement Learning Group's Senior Design at the University of Detroit Mercy. 
 
 # Associated Paper and Presentation
-[Paper](https://github.com/legendairytri/YOLO-RL-CARLA/blob/main/Final%20Report%20Autonomous%20Driving%20via%20RL%20with%20Object%20Detection.pdf)
+Please see our associated [Paper](https://github.com/legendairytri/YOLO-RL-CARLA/blob/main/Final%20Report%20Autonomous%20Driving%20via%20RL%20with%20Object%20Detection.pdf) and [Presentation](https://github.com/legendairytri/YOLO-RL-CARLA/blob/main/Presentation%20Autonomous%20Driving%20via%20RL%20with%20Object%20Detection.pdf)
 
-[Presentation](https://github.com/legendairytri/YOLO-RL-CARLA/blob/main/Presentation%20Autonomous%20Driving%20via%20RL%20with%20Object%20Detection.pdf)
-
-# Description
-/Display w/ figures/
 
 # System Requirements
 _The requirements are based on the computers we have access to. I will attempt to list the requirements in a manner that can be adapted for each user._
@@ -83,6 +79,8 @@ Update ultralytics code
 
 
 
+# Description
+/Display w/ figures/ 
 
 ### codes
 https://github.com/cjy1992/gym-carla/blob/master/README.md
